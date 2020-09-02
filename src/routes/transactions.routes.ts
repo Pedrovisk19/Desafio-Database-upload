@@ -44,8 +44,8 @@ transactionsRouter.delete('/:id', async (request, response) => {
 
 });
 
-transactionsRouter.post('/import', async (request, response) => {
-  // TODO
-});
+// transactionsRouter.post('/import', async (request, response) => {
+//   // TODO
+// });
 
 export default transactionsRouter;
